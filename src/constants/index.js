@@ -6,6 +6,7 @@ import {
   reactjs,
   redux,
   tailwind,
+  shadcn,
   nodejs,
   mongodb,
   git,
@@ -52,18 +53,22 @@ export const skills = [
     title: "JavaScript",
     icon: javascript,
   },
-  {
-    title: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   title: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     title: "React.js",
     icon: reactjs,
   },
   {
-    title: "Redux.js",
-    icon: redux,
+    title: "Shadcn-UI",
+    icon: shadcn,
   },
+  // {
+  //   title: "Redux.js",
+  //   icon: redux,
+  // },
   {
     title: "Tailwind CSS",
     icon: tailwind,
@@ -84,29 +89,28 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "Frontend Web Developer",
-    company_name: "A satija co-operation pvt. ltd.",
+    title: "Frontend Web Developer - Intern",
+    company_name: "Vikasit Solutions pvt. ltd.",
     icon: neoscript,
     iconBg: "#383E56",
-    date: "June 2022 - Present",
+    date: "June 2023 - Dec 2023",
     points: [
       "Building reusable code that is scalable and optimized for performance.",
-      "Testing, debugging, and optimizing web applications with various tools and techniques (e.g., Chrome DevTools).",
       "Utilizing industry best practices for mobile-first and responsive web application.",
       "Creating appropriate integration strategies with components and APIs.",
     ],
   },
   {
-    title: "React Native Developer - Intern",
-    company_name: "Mobilestyx Consulting and Solution",
+    title: "Frontend Web Developer - Intern",
+    company_name: "Sharviteck Softwares pvt. ltd.",
     icon: mobilestyx,
     iconBg: "#E6DEDD",
-    date: "Sep 2021 - March 2022",
+    date: "Feb 2024 - April 2024",
     points: [
-      "Developing and maintaining mobile applications using React Native and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-mobile compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Building reusable code that is scalable and optimized for performance.",
+      "Utilizing industry best practices for mobile-first and responsive web application.",
+      "Creating appropriate integration strategies with components and APIs.",
+      "Manage all social media handles and supprt in email marketing",
     ],
   },
 ];

@@ -10,7 +10,7 @@ const Hero = () => {
       >
         <div className="flex flex-col items-center justify-center">
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915EFF]">Robin Mahto</span>
+            Hi, I'm <span className="text-[#915EFF]">Kapil Kumar</span>
           </h1>
 
           <h1
@@ -26,16 +26,16 @@ const Hero = () => {
           </p>
 
           <div className={`flex my-6 items-center gap-8`}>
-            <a
+            {/* <a
               href="https://robinmahto.hashnode.dev/"
               target="blank"
               title="hashnode"
               className="bg-[#915EFF] ease-in duration-200 hover:bg-tertiary p-2 rounded-full"
             >
               <img src={hashnode} alt="hashnode" />
-            </a>
+            </a> */}
             <a
-              href="https://www.linkedin.com/in/robinmahto/"
+              href="https://www.linkedin.com/in/kapilkumar047"
               target="blank"
               title="linkedin"
               className="bg-[#915EFF] ease-in duration-200 hover:bg-tertiary p-2 rounded-full"
@@ -47,7 +47,7 @@ const Hero = () => {
               />
             </a>
             <a
-              href="https://github.com/robinmahto"
+              href="https://github.com/Kapilkumar042"
               target="blank"
               title="github"
               className="bg-[#915EFF] ease-in duration-200 hover:bg-tertiary  p-2 rounded-full"

@@ -22,8 +22,8 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Experienced Frontend Web Developer with over 2 years of hands-on
-          experience in JavaScript, TypeScript, and React.js. committed to
+          Experienced Frontend Web Developer with over 9+ Months of hands-on
+          experience in JavaScript, Tailwind CSS, and React.js. committed to
           staying updated with the latest technologies and best practices in the
           industry.
         </motion.p>

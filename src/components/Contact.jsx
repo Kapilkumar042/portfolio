@@ -27,29 +27,29 @@ const Contact = () => {
       <div className="flex items-center justify-center flex-wrap gap-4">
         <div className="bg-tertiary p-3 flex items-center gap-4 rounded">
           <img src={email} alt="email" />
-          <p>robinmahto1999@gmail.com</p>
+          <p>kapilsingh80791@gmail.com</p>
         </div>
         <div className="bg-tertiary p-3 flex items-center gap-4 rounded">
           <img src={phone} alt="phone" />
-          <p>+91 8268062064</p>
+          <p>+91 9719043829</p>
         </div>
         <div className="bg-tertiary p-3 flex items-center gap-4 rounded">
           <img src={location} alt="location" />
-          <p>Mumbai, Maharashtra 400103</p>
+          <p>Noida, Uttar Pradesh</p>
         </div>
       </div>
 
       <div className={`flex my-6 items-center justify-center gap-8`}>
-        <a
+        {/* <a
           href="https://robinmahto.hashnode.dev/"
           target="blank"
           title="hashnode"
           className="bg-[#915EFF] ease-in duration-200 hover:bg-tertiary p-2 rounded-full"
         >
           <img src={hashnode} alt="hashnode" />
-        </a>
+        </a> */}
         <a
-          href="https://www.linkedin.com/in/robinmahto/"
+          href="https://www.linkedin.com/in/kapilkumar047"
           target="blank"
           title="linkedin"
           className="bg-[#915EFF] ease-in duration-200 hover:bg-tertiary p-2 rounded-full"
@@ -61,7 +61,7 @@ const Contact = () => {
           />
         </a>
         <a
-          href="https://github.com/robinmahto"
+          href="https://github.com/Kapilkumar042"
           target="blank"
           title="github"
           className="bg-[#915EFF] ease-in duration-200 hover:bg-tertiary  p-2 rounded-full"

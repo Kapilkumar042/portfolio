@@ -19,7 +19,8 @@ const Navbar = () => {
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link to="/" className="flex items-center gap-2">
-          <img src={logo} alt="logo" className="w-20 h-20 object-contain" />
+          {/* <img src={logo} alt="logo" className="w-20 h-20 object-contain" /> */}
+          <p className="w-20 h-20 p-4 text-secondary font-poppins font-medium cursor-pointer text-[16px]">Kapil</p>
         </Link>
 
         <ul className="list-none hidden sm:flex flex-row gap-10">
