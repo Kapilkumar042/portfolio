@@ -41,6 +41,8 @@ import phone from './contact/phone.svg';
 import location from './contact/location.svg';
 
 import paytm from './projects/paytm.png';
+import shopingapp from "./projects/shopingapp.png"
+import instagramapp from "./projects/instagram.png"
 import rode from './projects/rode.png';
 import shopify from './projects/shopify.png';
 
@@ -90,6 +92,8 @@ export {
   about_avatar,
 
   paytm,
+  shopingapp,
+  instagramapp,
   rode,
   shopify
 };

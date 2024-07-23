@@ -13,6 +13,8 @@ import {
   mobilestyx,
   neoscript,
   paytm,
+  shopingapp,
+  instagramapp,
   rode,
   shopify,
 } from "../assets";
@@ -117,9 +119,9 @@ export const experiences = [
 
 export const projects = [
   {
-    name: "Paytm Clone",
+    name: "Shop Now",
     description:
-      "Creating a Paytm clone using HTML, CSS, and Tailwind CSS involves building a responsive user interface that mimics Paytm's design.Implement key features like transaction cards and a payment form for a visually appealing.",
+      "Creating a e-commerce web app frontend using ReactJS, CSS involves building a responsive user interface that mimics Tech Bunner design.Implement key features like carosual cards and dynamic props form for a visually appealing.",
     tags: [
       {
         name: "HTML5",
@@ -130,18 +132,18 @@ export const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Tailwind CSS",
+        name: "ReactJS",
         color: "pink-text-gradient",
       },
     ],
-    image: paytm,
-    source_code_link: "https://github.com/robinmahto/Paytm-Clone",
-    live_link: "https://paytm-clone-tailwindcss-16.netlify.app/"
+    image: shopingapp,
+    source_code_link: "https://github.com/Kapilkumar042/shoping_app",
+    live_link: "https://shopingapp.onrender.com/"
   },
   {
-    name: "Rode Clone",
+    name: "Instagram Clone",
     description:
-      "Creating a Rode microphone clone with HTML, CSS, and Tailwind CSS for a polished user interface that mirrors Rode's design. Leverage Tailwind CSS for streamlined styling and HTML for structuring the responsive website.",
+      "Creating a Instagram clone with HTML, CSS, for a polished user interface that mirrors Instagram's design. Leverage Tailwind CSS for streamlined styling and HTML for structuring the responsive website.",
     tags: [
       {
         name: "HTML5",
@@ -151,14 +153,14 @@ export const projects = [
         name: "CSS3",
         color: "green-text-gradient",
       },
-      {
-        name: "Tailwind CSS",
-        color: "pink-text-gradient",
-      },
+      // {
+      //   name: "Tailwind CSS",
+      //   color: "pink-text-gradient",
+      // },
     ],
-    image: rode,
-    source_code_link: "https://github.com/robinmahto/Rode-Clone",
-    live_link: "https://rode-clone-tailwindcss-17.netlify.app/"
+    image: instagramapp,
+    source_code_link: "https://github.com/Kapilkumar042/instagram-clone",
+    live_link: "https://kapilkumar042.github.io/instagram-clone/"
   },
   {
     name: "Shopify Clone",
